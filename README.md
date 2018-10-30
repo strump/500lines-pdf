@@ -14,7 +14,7 @@ I had big problems trying to build it under Windows. So I hope you don't need to
     * replace `cp` command line with Windows analog `copy`;
     * make sure that slash symbols '/' are replaced with backslash '\\' for Windows folders;
 
-  You can take `build_win.py` file from this repo as an example. But I can't guarantee it's 100% working.
+    You can take `build_win.py` file from this repo as an example. But I can't guarantee it's 100% working.
 
 4. Run build script with command:
 ```
