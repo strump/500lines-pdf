@@ -10,9 +10,9 @@ I had big problems trying to build it under Windows. So I hope you don't need to
 1. Make sure folder with `pdflatex.exe` is added to `PATH` variable;
 2. Clone repository https://github.com/aosabook/500lines.git;
 3. Patch `build.py` script:
-  * replace `envy.run` method with `subprocess.call`;
-  * replace `cp` command line with Windows analog `copy`;
-  * make sure that slash symbol '/' is replaced with backslash '\' for Windows folders;
+    * replace `envy.run` method with `subprocess.call`;
+    * replace `cp` command line with Windows analog `copy`;
+    * make sure that slash symbols '/' are replaced with backslash '\\' for Windows folders;
 
   You can take `build_win.py` file from this repo as an example. But I can't guarantee it's 100% working.
 
